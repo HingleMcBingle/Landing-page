@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: hero
 }
 
 body{
@@ -33,11 +34,11 @@ a{
     color: white;
 
 }
-.sect1{
+.header, .sect1cont{
     display: flex;
     flex: 1;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-around;
 }
 .sect1box{
     flex-direction: column;
@@ -46,24 +47,136 @@ a{
 .sect1cont{
     display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: left;
     color: white;
+    padding: 0 250px 70;
+    
 }
 
-img{
-    padding: 10 10;
+.sect1img{
+    padding: ;
+    
 }
 .sect1txt{
     display: flex;
     flex: 1;
     flex-direction: column;
+    border-right-width: 2;
+}
+
+.text{
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+    text-align: center;
+    color: black;
+    padding-top: 15;
+    font-size: 18px;
+    color: #444444;
 }
 
 .sect2{
-    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 50 300 150 ;
+}
+
+.info,.item{
+
+    background-size: 100vw 100vh;
+}
+
+.info{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 36px;
+}
+.sect2img{
+    border: #3882F6;
+    border-style: solid;
+    border-width: 5;
+    border-radius: 25px;
 }
 
 .sect3{
     background-color: #E5e7eb;
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    padding:100 200;
+}
+
+.quote_cred{
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.item{
+    padding: 0 30;
+}
+
+.dtxt{
+    max-width: 500px;
+    padding: 20 0;
+    font-size: 20;
+}
+
+.button{
+
+}
+
+button{
+font-size: larger;
+color: white;
+font-weight: bold;
+color: #E5e7eb;
+background-color: #3882F6;
+border-radius: 10px;
+padding: 5px 20;
+border-color: white;
+border-width: 1;
+}
+
+.sect4{
+    display: flex;
+    flex: 1 ;
+    justify-content: center;
+    align-items: center;
+    padding: 50 200;
+    background-color: #3882F6;
+    border: solid;
+    border-color: white;
+    margin: 150 100;
+    border-radius: 25px;
+    color: white;
+
+}
+
+.bantxt{
+    font-weight: bold;
+    font-size: 30;
+}
+
+.bantxt2{
+    font-size: 18;
+}
+
+.banner{
+    padding: 0 400 0 0;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40 40;
 }
